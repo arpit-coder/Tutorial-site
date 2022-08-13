@@ -1,0 +1,72 @@
+2022-07-25T07:28:09+00:00 CRITICAL Uncaught Error: Failed opening required 'D:\xampp\htdocs\LMS\wp-content\plugins\elementskit-lite/plugin.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\LMS\wp-content\plugins\elementskit-lite\elementskit-lite.php:308
+Stack trace:
+#0 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(307): ElementsKit_Lite->init('')
+#1 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\LMS\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\LMS\wp-settings.php(461): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\LMS\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\LMS\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\LMS\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown in D:\xampp\htdocs\LMS\wp-content\plugins\elementskit-lite\elementskit-lite.php on line 308
+
+2022-07-25T10:55:59+00:00 CRITICAL Uncaught Error: Call to a member function is_preview_mode() on null in D:\xampp\htdocs\LMS\wp-content\plugins\tutor-lms-elementor-addons\classes\AssetsManager.php:149
+Stack trace:
+#0 D:\xampp\htdocs\LMS\wp-content\plugins\tutor-lms-elementor-addons\classes\AssetsManager.php(120): TutorLMS\Elementor\AssetsManager::utility_data()
+#1 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(307): TutorLMS\Elementor\AssetsManager::enqueue_elementor_scripts('')
+#2 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\LMS\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\LMS\wp-includes\script-loader.php(2156): do_action('wp_enqueue_scri...')
+#5 D:\xampp\htdocs\LMS\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#6 D:\xampp\htdocs\LMS\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#7 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#8 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 D:\xampp\htdocs\LMS\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#10 D:\xampp\htdocs\LMS\wp-settings.php(530): do_action('setup_theme')
+#11 D:\xampp\htdocs\LMS\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#12 D:\xampp\htdocs\LMS\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\LMS\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\LMS\index.php(17): require('D:\\xampp\\htdocs...')
+#15 {main}
+  thrown in D:\xampp\htdocs\LMS\wp-content\plugins\tutor-lms-elementor-addons\classes\AssetsManager.php on line 149
+
+2022-07-25T10:56:08+00:00 CRITICAL Uncaught Error: Call to a member function is_preview_mode() on null in D:\xampp\htdocs\LMS\wp-content\plugins\tutor-lms-elementor-addons\classes\AssetsManager.php:149
+Stack trace:
+#0 D:\xampp\htdocs\LMS\wp-content\plugins\tutor-lms-elementor-addons\classes\AssetsManager.php(120): TutorLMS\Elementor\AssetsManager::utility_data()
+#1 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(307): TutorLMS\Elementor\AssetsManager::enqueue_elementor_scripts('')
+#2 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\LMS\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\LMS\wp-includes\script-loader.php(2156): do_action('wp_enqueue_scri...')
+#5 D:\xampp\htdocs\LMS\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#6 D:\xampp\htdocs\LMS\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#7 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#8 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 D:\xampp\htdocs\LMS\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#10 D:\xampp\htdocs\LMS\wp-settings.php(530): do_action('setup_theme')
+#11 D:\xampp\htdocs\LMS\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#12 D:\xampp\htdocs\LMS\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\LMS\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\LMS\index.php(17): require('D:\\xampp\\htdocs...')
+#15 {main}
+  thrown in D:\xampp\htdocs\LMS\wp-content\plugins\tutor-lms-elementor-addons\classes\AssetsManager.php on line 149
+
+2022-07-25T10:56:17+00:00 CRITICAL Uncaught Error: Call to a member function is_preview_mode() on null in D:\xampp\htdocs\LMS\wp-content\plugins\tutor-lms-elementor-addons\classes\AssetsManager.php:149
+Stack trace:
+#0 D:\xampp\htdocs\LMS\wp-content\plugins\tutor-lms-elementor-addons\classes\AssetsManager.php(120): TutorLMS\Elementor\AssetsManager::utility_data()
+#1 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(307): TutorLMS\Elementor\AssetsManager::enqueue_elementor_scripts('')
+#2 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\LMS\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\LMS\wp-includes\script-loader.php(2156): do_action('wp_enqueue_scri...')
+#5 D:\xampp\htdocs\LMS\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#6 D:\xampp\htdocs\LMS\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#7 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#8 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 D:\xampp\htdocs\LMS\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#10 D:\xampp\htdocs\LMS\wp-settings.php(530): do_action('setup_theme')
+#11 D:\xampp\htdocs\LMS\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#12 D:\xampp\htdocs\LMS\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\LMS\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\LMS\index.php(17): require('D:\\xampp\\htdocs...')
+#15 {main}
+  thrown in D:\xampp\htdocs\LMS\wp-content\plugins\tutor-lms-elementor-addons\classes\AssetsManager.php on line 149
+

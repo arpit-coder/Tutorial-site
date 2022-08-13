@@ -1,0 +1,63 @@
+2022-08-01T09:35:30+00:00 CRITICAL Cannot redeclare Form_data_activate() (previously declared in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php:12) in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 15
+
+2022-08-01T09:35:35+00:00 CRITICAL Cannot redeclare Form_data_activate() (previously declared in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php:12) in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 15
+
+2022-08-01T09:35:35+00:00 CRITICAL Cannot redeclare Form_data_activate() (previously declared in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php:12) in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 15
+
+2022-08-01T09:52:32+00:00 CRITICAL syntax error, unexpected variable "$wpdb" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 20
+
+2022-08-01T09:52:36+00:00 CRITICAL syntax error, unexpected variable "$wpdb" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 20
+
+2022-08-01T09:52:37+00:00 CRITICAL syntax error, unexpected variable "$wpdb" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 20
+
+2022-08-01T09:56:14+00:00 CRITICAL syntax error, unexpected token ":", expecting "," or ";" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 13
+
+2022-08-01T09:56:18+00:00 CRITICAL syntax error, unexpected token ":", expecting "," or ";" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 13
+
+2022-08-01T09:56:18+00:00 CRITICAL syntax error, unexpected token ":", expecting "," or ";" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 13
+
+2022-08-01T09:56:48+00:00 CRITICAL syntax error, unexpected variable "$wpdb" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 22
+
+2022-08-01T09:56:52+00:00 CRITICAL syntax error, unexpected variable "$wpdb" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 22
+
+2022-08-01T09:56:52+00:00 CRITICAL syntax error, unexpected variable "$wpdb" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 22
+
+2022-08-01T09:59:41+00:00 CRITICAL syntax error, unexpected variable "$wpdb" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 21
+
+2022-08-01T09:59:45+00:00 CRITICAL syntax error, unexpected variable "$wpdb" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 21
+
+2022-08-01T09:59:45+00:00 CRITICAL syntax error, unexpected variable "$wpdb" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 21
+
+2022-08-01T10:01:15+00:00 CRITICAL syntax error, unexpected variable "$wpdb" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 21
+
+2022-08-01T10:01:20+00:00 CRITICAL syntax error, unexpected variable "$wpdb" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 21
+
+2022-08-01T10:01:20+00:00 CRITICAL syntax error, unexpected variable "$wpdb" in D:\xampp\htdocs\LMS\wp-content\plugins\Form_data\Form_data.php on line 21
+
+2022-08-01T10:24:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "Form_data_deactivate" not found or invalid function name in D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\LMS\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\LMS\wp-admin\includes\plugin.php(814): do_action('deactivate_Form...', false)
+#3 D:\xampp\htdocs\LMS\wp-admin\plugins.php(209): deactivate_plugins('Form_data/Form_...', false, false)
+#4 {main}
+  thrown in D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php on line 307
+
+2022-08-01T10:26:44+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "Form_data_deactivate" not found or invalid function name in D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\LMS\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\LMS\wp-admin\includes\plugin.php(814): do_action('deactivate_Form...', false)
+#3 D:\xampp\htdocs\LMS\wp-admin\plugins.php(209): deactivate_plugins('Form_data/Form_...', false, false)
+#4 {main}
+  thrown in D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php on line 307
+
+2022-08-01T10:30:33+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "Form_data_deactivate" not found or invalid function name in D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\LMS\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\LMS\wp-admin\includes\plugin.php(814): do_action('deactivate_Form...', false)
+#3 D:\xampp\htdocs\LMS\wp-admin\plugins.php(209): deactivate_plugins('Form_data/Form_...', false, false)
+#4 {main}
+  thrown in D:\xampp\htdocs\LMS\wp-includes\class-wp-hook.php on line 307
+

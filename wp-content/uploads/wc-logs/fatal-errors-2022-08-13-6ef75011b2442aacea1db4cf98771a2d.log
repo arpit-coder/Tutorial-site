@@ -1,0 +1,14 @@
+2022-08-13T05:53:46+00:00 CRITICAL StaticHTMLOutput\Options::__set(): Return type must be void when declared in D:\xampp\htdocs\LMS\wp-content\plugins\static-html-output-plugin\src\Options.php on line 141
+
+2022-08-13T05:53:50+00:00 CRITICAL StaticHTMLOutput\Options::__set(): Return type must be void when declared in D:\xampp\htdocs\LMS\wp-content\plugins\static-html-output-plugin\src\Options.php on line 141
+
+2022-08-13T05:53:50+00:00 CRITICAL StaticHTMLOutput\Options::__set(): Return type must be void when declared in D:\xampp\htdocs\LMS\wp-content\plugins\static-html-output-plugin\src\Options.php on line 141
+
+2022-08-13T05:54:37+00:00 CRITICAL StaticHTMLOutput\Options::__set(): Return type must be void when declared in D:\xampp\htdocs\LMS\wp-content\plugins\static-html-output-plugin\src\Options.php on line 141
+
+2022-08-13T05:54:42+00:00 CRITICAL StaticHTMLOutput\Options::__set(): Return type must be void when declared in D:\xampp\htdocs\LMS\wp-content\plugins\static-html-output-plugin\src\Options.php on line 141
+
+2022-08-13T05:54:42+00:00 CRITICAL StaticHTMLOutput\Options::__set(): Return type must be void when declared in D:\xampp\htdocs\LMS\wp-content\plugins\static-html-output-plugin\src\Options.php on line 141
+
+2022-08-13T06:20:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\LMS\wp-includes\wp-db.php on line 2169
+
